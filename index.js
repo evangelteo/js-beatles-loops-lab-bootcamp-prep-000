@@ -9,8 +9,8 @@ function theBeatlesPlay(array1,array2) {
 function johnLennonFacts(array) {
   var newarray = []
   while (array != []) {
-    var x = newarray.push()
-    
+    var x = array.pop()
+    newarray.push(x + "!!!")
   }
   return newarray
 }
